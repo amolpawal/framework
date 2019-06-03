@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
+  <test thread-count="5" name="Dashboard(failed)">
+    <classes>
+      <class name="DemoMaven.Tests.DashBoard.DashBoardTests">
+        <methods>
+          <include name="TC_verifySelectPractice"/>
+          <include name="VerifyValidLogin"/>
+          <include name="getMethodName"/>
+          <include name="TearDown"/>
+          <include name="setupTest"/>
+          <include name="TC_DetailedPPDrillDownCountR"/>
+          <include name="getDataFromDataproviderTC_DetailedPPDrillDownCountNR" invocation-numbers="0"/>
+          <include name="tearownTest"/>
+          <include name="setReport"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- DemoMaven.Tests.DashBoard.DashBoardTests -->
+    </classes>
+  </test> <!-- Dashboard(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

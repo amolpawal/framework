@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="VerifyLipid(failed)">
+    <classes>
+      <class name="DemoMaven.Tests.DashBoard.LipidTests">
+        <methods>
+          <include name="verifyNavigateToLipid"/>
+          <include name="TC_verifySelectPractice"/>
+          <include name="VerifyValidLogin"/>
+          <include name="getMethodName"/>
+          <include name="setupTest"/>
+          <include name="TearDown"/>
+          <include name="setReport"/>
+          <include name="tearownTest"/>
+          <include name="verify2018BothAllAll" invocation-numbers="0"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- DemoMaven.Tests.DashBoard.LipidTests -->
+    </classes>
+  </test> <!-- VerifyLipid(failed) -->
+</suite> <!-- Failed suite [Suite] -->

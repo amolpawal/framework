@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+
+<!-- <listeners>
+<listener class-name="DemoMaven.Utilities.EmailReportManager"></listener>
+</listeners> -->
+  
+  <test name="Dashboard">
+  		<classes>
+            <class name="DemoMaven.Tests.DashBoard.DashBoardTests"/>
+        </classes>
+  </test> 
+  
+    <!-- <test name="LipidTest">
+  		<classes>
+            <class name="DemoMaven.Tests.DashBoard.LipidTests"/>
+        </classes>
+   </test> 
+   -->
+  
+  
+
+  
+  
+   <!-- <test name="TC_GroupProfileSave">
+  		<classes>
+            <class name="mips.ProfileSaveActivityGroup"/>
+        </classes>
+  </test>  -->
+  
+  
+  <!-- <test name="TC_ClinicianProfileSave">
+  		<classes>
+            <class name="mips.ProfileSaveActivityClinician"/>
+        </classes>
+  </test>  -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
