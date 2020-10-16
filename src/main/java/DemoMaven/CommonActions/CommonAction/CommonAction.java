@@ -36,6 +36,7 @@ public class CommonAction extends SuiteBase
 		try
 		{
 			driver.findElement(loc);
+			//System.out.println("Hi");
 			return true;
 		}
 		catch(NoSuchElementException e)
