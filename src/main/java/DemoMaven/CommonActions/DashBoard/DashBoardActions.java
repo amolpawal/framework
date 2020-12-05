@@ -10,6 +10,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -60,6 +61,7 @@ public class DashBoardActions {
     	ca.ElementToClick(dashBoardUI.measureSetDropDownActiveLaabl, driver, wait);
     	int webCount =ca.ListOfElementSize(dashBoardUI.measureSetDropDownActiveDD2018, driver, wait);
     	ca.ElementToClick(dashBoardUI.measureSetDropDownCloseButton, driver, wait);
+    	((JavascriptExecutor)driver).executeScript("window.scroll()", "(0,400)");
     	
     	
     	
